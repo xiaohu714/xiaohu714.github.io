@@ -1,39 +1,94 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Xiao Hu</title>
-  <meta name="author" content="Xiao Hu">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Xiao Hu</title>
+<meta name="author" content="Xiao Hu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-  <style>
-    .highlight-paper {
-      background-color: #f5f7ff;
-      border-left: 4px solid #2a5bd7;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-  </style>
+<style>
+
+/* ================= GLOBAL STYLE ================= */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ================= PAPER STYLE ================= */
+
+.paper-block {
+  padding: 18px 14px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.paper-block:hover {
+  background-color: #f9f9f9;
+}
+
+.highlight-paper {
+  background-color: #f5f7ff;
+  border-left: 4px solid #2a5bd7;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.papertitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.paper-description {
+  margin-top: 8px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.section-spacing {
+  margin-top: 50px;
+}
+
+</style>
+
 </head>
 
 <body>
-<table style="width:100%;max-width:800px;margin:auto;border-collapse:separate;">
+
+<table style="width:100%;max-width:820px;margin:auto;border-collapse:separate;">
 <tbody>
 
-<!-- Header -->
+<!-- ================= HEADER ================= -->
+
 <tr>
 <td>
 
 <table style="width:100%;">
 <tr>
+
 <td style="padding:2.5%;width:63%;vertical-align:middle">
   <p class="name" style="text-align:center;">
     Xiao Hu (胡潇)
   </p>
+
   <p>
-    I'm a Computer Science graduate student with 5+ years of research experience developing AI/ML systems spanning LLMs, generative models, GNNs, and RL. I am proficient in scalable dataset design, model design, training, and evaluation.
+    I'm a Computer Science graduate student with 5+ years of research experience developing scalable AI systems across large language models, generative modeling, graph neural networks, and reinforcement learning. My work spans dataset construction, model design, training pipelines, and rigorous evaluation.
   </p>
+
   <p style="text-align:center">
     <a href="mailto:hu.2823@osu.edu">Email</a> /
     <a href="https://www.linkedin.com/in/xiao-hu-86a355243/">Linkedin</a> /
@@ -41,18 +96,20 @@
     <a href="https://github.com/xiaohu714">Github</a>
   </p>
 </td>
+
 <td style="padding:2.5%;width:37%;">
-  <img style="width:100%;max-width:100%;border-radius:50%;" 
-       src="images/xiaohu.jpg">
+  <img style="width:100%;border-radius:50%;" src="images/xiaohu.jpg">
 </td>
+
 </tr>
 </table>
 
 <!-- ================= EDUCATION ================= -->
-<table style="width:100%;">
+
+<table style="width:100%;" class="section-spacing">
 <tr>
 <td style="padding:8px 0px;">
-  <h2>Education Background</h2>
+  <h2>Education</h2>
 </td>
 </tr>
 </table>
@@ -63,10 +120,10 @@
 <td style="padding:4px 8px;width:22%;">
   <img src="images/osu_logo.png" style="width:85%;max-width:110px;">
 </td>
-<td style="padding:4px 8px;width:78%;line-height:1.4;">
+<td style="padding:4px 8px;width:78%;">
   <strong>The Ohio State University</strong>, Columbus, OH<br>
-  Master of Science in Computer Science and Engineering (Master out)<br>
-  <em>Sept 2023 - Jan 2026</em><br>
+  M.S. in Computer Science and Engineering (Master out)<br>
+  <em>Sept 2023 – Jan 2026</em><br>
   Advisor: <a href="https://u.osu.edu/ning.104/">Dr. Xia Ning</a>
 </td>
 </tr>
@@ -75,10 +132,10 @@
 <td style="padding:4px 8px;width:22%;">
   <img src="images/umich_logo.png" style="width:85%;max-width:110px;">
 </td>
-<td style="padding:4px 8px;width:78%;line-height:1.4;">
+<td style="padding:4px 8px;width:78%;">
   <strong>University of Michigan</strong>, Ann Arbor, MI<br>
-  Master of Science in Electrical Engineering and Computer Science<br>
-  <em>Sept 2021 - Apr 2023</em><br>
+  M.S. in Electrical Engineering and Computer Science<br>
+  <em>Sept 2021 – Apr 2023</em><br>
   GPA: 3.82/4.0<br>
   Advisor: <a href="https://kim.engin.umich.edu/">Dr. Hunseok Kim</a>
 </td>
@@ -88,10 +145,10 @@
 <td style="padding:4px 8px;width:22%;">
   <img src="images/hust_logo.png" style="width:85%;max-width:110px;">
 </td>
-<td style="padding:4px 8px;width:78%;line-height:1.4;">
+<td style="padding:4px 8px;width:78%;">
   <strong>Huazhong University of Science and Technology</strong>, Wuhan, China<br>
-  Bachelor of Engineering in Automation<br>
-  <em>Sept 2017 - June 2021</em><br>
+  B.E. in Automation<br>
+  <em>Sept 2017 – June 2021</em><br>
   GPA: 3.87/4.0<br>
   Advisor: <a href="https://yy311.github.io/">Dr. Ye Yuan</a>
 </td>
@@ -100,102 +157,97 @@
 </table>
 
 <!-- ================= RESEARCH ================= -->
-<table style="width:100%; margin-top:40px;">
-  <tr>
-  <td style="padding:8px 0px;">
-    <h2>Research</h2>
+
+<table style="width:100%;" class="section-spacing">
+<tr>
+<td>
+  <h2>Research</h2>
   <p>
-    I'm interested in generative AI, large language models, graph neural networks, and deep learning. 
-    Most of my research focuses on AI for drug discovery (AIDD). 
-    <a href="https://buckeyemailosu-my.sharepoint.com/:p:/g/personal/hu_2823_buckeyemail_osu_edu/IQAzx1h1JXyASKs8R1UUKQbvAfiIChaQcUjV0ypbM4mf7_c?e=LERrKm">Here</a> is a presentation for my AIDD work.
+    My research focuses on AI for drug discovery (AIDD), with emphasis on instruction-driven molecular optimization, reaction modeling, and scalable dataset construction. I aim to bridge large language model reasoning with molecular design and reaction chemistry.
   </p>
 </td>
 </tr>
 </table>
 
-<table style="width:100%;border-spacing:0px 12px;">
+<table style="width:100%;border-spacing:0px 16px;">
 
-<!-- ===== Paper 1 (Highlighted) ===== -->
-<tr class="highlight-paper">
-<td style="padding:8px;width:28%;">
-  <img src='images/logrrim.png' style="width:100%;max-width:220px;">
+<!-- ===== Paper 1 ===== -->
+<tr class="paper-block highlight-paper">
+<td style="padding:8px;width:28%;vertical-align:middle;">
+  <img src='images/logrrim.png' style="width:100%;max-width:230px;">
 </td>
-<td style="padding:8px;width:72%;">
-  <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.5c01208">
-    <span class="papertitle">
-      log-RRIM: Yield Prediction via Local-to-global Reaction Representation Learning and Interaction Modeling
-    </span>
-  </a><br>
+<td style="padding:8px;width:72%;vertical-align:middle;">
+  <span class="papertitle">
+    log-RRIM: Yield Prediction via Local-to-global Reaction Representation Learning and Interaction Modeling
+  </span><br>
   <strong>Xiao Hu</strong>, Ziqi Chen, Daniel Adu-Ampratwum, Xia Ning<br>
   <em>Journal of Chemical Information and Modeling</em>, 2025<br>
   <a href="https://arxiv.org/abs/2411.03320">arXiv</a> /
   <a href="https://github.com/ninglab/Yield_log_RRIM">code</a>
-  <p>
-    Graph transformer for reaction yield prediction with cross-attention between reagents and reaction centers.
-  </p>
+
+  <div class="paper-description">
+    We propose a graph transformer framework that jointly models local reaction centers and global molecular context via cross-attention. The model explicitly captures interactions between reagents and reactive sites, improving generalization across diverse reaction classes. Experimental results demonstrate consistent performance gains, particularly for medium-to-high yield reactions where interaction modeling is critical.
+  </div>
 </td>
 </tr>
 
-<!-- ===== Paper 2 (Highlighted) ===== -->
-<tr class="highlight-paper">
-<td style="padding:8px;width:28%;">
-  <img src='images/gellmo.png' style="width:100%;max-width:220px;">
+<!-- ===== Paper 2 ===== -->
+<tr class="paper-block highlight-paper">
+<td style="padding:8px;width:28%;vertical-align:middle;">
+  <img src='images/gellmo.png' style="width:100%;max-width:230px;">
 </td>
-<td style="padding:8px;width:72%;">
-  <a href="https://aclanthology.org/2025.acl-long.1225/">
-    <span class="papertitle">
-      GeLLM³O: Generalizing Large Language Models for Multi-property Molecule Optimization
-    </span>
-  </a><br>
+<td style="padding:8px;width:72%;vertical-align:middle;">
+  <span class="papertitle">
+    GeLLM³O: Generalizing Large Language Models for Multi-property Molecule Optimization
+  </span><br>
   Vishal Dey*, <strong>Xiao Hu*</strong>, Xia Ning (*equal contribution)<br>
   <em>ACL</em>, 2025<br>
   <a href="https://arxiv.org/abs/2502.13398">arXiv</a> /
   <a href="https://github.com/ninglab/GeLLMO">code</a>
-  <p>
-    Introduced MuMOInstruct (255K+ pairs across 63 tasks) for instruction-based molecule optimization.
-  </p>
+
+  <div class="paper-description">
+    We introduce MuMOInstruct, the first large-scale instruction-tuning dataset for multi-property molecule optimization with 255K+ training pairs across 63 tasks. Built upon this dataset, GeLLM³O enables large language models to perform zero-shot and cross-task molecular optimization. The framework establishes instruction-driven reasoning as a scalable paradigm for AI-based drug discovery.
+  </div>
 </td>
 </tr>
 
 <!-- ===== Paper 3 ===== -->
-<tr>
-<td style="padding:8px;width:28%;">
-  <img src='images/gellmo_control.png' style="width:100%;max-width:220px;">
+<tr class="paper-block">
+<td style="padding:8px;width:28%;vertical-align:middle;">
+  <img src='images/gellmo_control.png' style="width:100%;max-width:230px;">
 </td>
-<td style="padding:8px;width:72%;">
-  <a href="https://arxiv.org/abs/2505.23987">
-    <span class="papertitle">
-      Large Language Models for Controllable Multi-property Multi-objective Molecule Optimization
-    </span>
-  </a><br>
+<td style="padding:8px;width:72%;vertical-align:middle;">
+  <span class="papertitle">
+    Large Language Models for Controllable Multi-property Multi-objective Molecule Optimization
+  </span><br>
   Vishal Dey, <strong>Xiao Hu</strong>, Xia Ning<br>
   <em>EMNLP</em>, 2025<br>
   <a href="https://arxiv.org/abs/2505.23987">arXiv</a> /
   <a href="https://github.com/ninglab/GeLLMO">code</a>
-  <p>
-    Controllable multi-objective molecule optimization with explicit property objectives.
-  </p>
+
+  <div class="paper-description">
+    We extend instruction-based molecular optimization to controllable multi-objective settings through C-MuMOInstruct with explicit property-specific objectives. The GeLLM-Cs framework enables precise steering of molecular attributes while maintaining structural validity. Empirically, it achieves up to 126% improvement in success rate compared to strong baselines.
+  </div>
 </td>
 </tr>
 
 <!-- ===== Paper 4 ===== -->
-<tr>
-<td style="padding:8px;width:28%;">
-  <img src='images/deepjscc.png' style="width:100%;max-width:220px;">
+<tr class="paper-block">
+<td style="padding:8px;width:28%;vertical-align:middle;">
+  <img src='images/deepjscc.png' style="width:100%;max-width:230px;">
 </td>
-<td style="padding:8px;width:72%;">
-  <a href="https://proceedings.mlr.press/v206/lee23c.html">
-    <span class="papertitle">
-      Deep Joint Source-Channel Coding with Iterative Source Error Correction
-    </span>
-  </a><br>
+<td style="padding:8px;width:72%;vertical-align:middle;">
+  <span class="papertitle">
+    Deep Joint Source-Channel Coding with Iterative Source Error Correction
+  </span><br>
   Changwoo Lee, <strong>Xiao Hu</strong>, Hun-Seok Kim<br>
   <em>AISTATS</em>, 2023<br>
   <a href="https://arxiv.org/abs/2302.09174">arXiv</a> /
   <a href="https://github.com/changwoolee/isec-deep-jscc">code</a>
-  <p>
-    Iterative decoding scheme improving distortion and perceptual metrics.
-  </p>
+
+  <div class="paper-description">
+    We propose an iterative source error correction (ISEC) framework for deep joint source-channel coding systems. The method progressively refines reconstructions through feedback-driven decoding, significantly improving distortion and perceptual quality metrics. This work advances reliable end-to-end communication under bandwidth constraints.
+  </div>
 </td>
 </tr>
 
@@ -210,5 +262,6 @@ Website template adapted from Jon Barron
 </tr>
 </tbody>
 </table>
+
 </body>
 </html>
